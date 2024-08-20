@@ -45,28 +45,9 @@ The model is built using regression techniques. The features are used to train t
 To get started with this project, clone the repository and install the required dependencies:
 
 ```bash
-git clone https://github.com/your-username/diamond-price-prediction.git
-cd diamond-price-prediction
+git clone https://github.com/0xwebmilk/diamondai.git
+cd diamondai
 pip install -r requirements.txt
-```
-
-## Usage
-
-To use the model for predicting the price of a diamond, follow these steps:
-
-1. Prepare your dataset with the same structure as described in the [Dataset](#dataset) section.
-2. Run the model script to predict diamond prices.
-
-Example:
-
-```python
-import model
-
-# Example diamond features
-features = [1.1, 'Ideal', 'H', 'SI1', 'VG', 'EX', 'GIA']
-price = model.predict(features)
-
-print(f"The predicted price of the diamond is ${price}")
 ```
 
 ## Results
